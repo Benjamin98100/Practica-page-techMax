@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-icon{
+    width:200px;
+}
+.hambur{
+    display: none;
+}
+.nav_container{
+    padding: 25px 100px;
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.nav{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content:center;
+    justify-content:space-between;
+}
+.nav-menu-container{
+    min-width: 462px;
+    max-width: 50%;
+}
+
+.nav-menu-container ul{
+    list-style: none;
+}
+
+.nav-menu-container ul li{
+    display: inline-block;
+}
+
+.nav-menu-container ul li a{
+    color: #555;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bold;
+    text-transform: capitalize;
+    padding:0px;
+    margin: 0px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav_buttons{
+    text-align: center;
+    min-width: 249px;
+}
+
+.nav_buttons a{
+    padding: 10px 30px;
+    color: aliceblue;
+    background-color: #5e87eb;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav_buttons a:hover{
+    background-color:#3e57d0;
+    transition: all 0.5s;
+}
+
+.main-baner-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+.main-baner-container .item-banner{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.conten-txt{
+    width: 100%;
+}
+.title-banner{
+    font-size: 35px;
+    color: #333;
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    line-height: 1.4;
+    font-family: 'Cabin', sans-serif;
+}
+
+.text-span{
+    color: #5e87eb;
+}
+
+.parrafo-banner{
+    color: #333;
+    font-size: 19px;
+    font-family: 'Cabin', 'sans-serif';
+    font-weight: 400;
+}
+
+.btbs-banner{
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btbs-banner a{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.24);
+    
+}
+.btnLm{
+    background: white;
+    color: #5e87eb;
+    margin: 15px 10px 15px 0px;
+}
+.btnLm:hover{
+    background: #3e57d0;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+.btnCus{
+    background: #5e87eb;
+    color: white;
+}
+.btnCus:hover{
+    background-color:#3e57d0;
+    transition: all 0.5s;
+}
+.img-banner{
+    text-align: center;
+    max-width: 100%;
+    font-family: 'Cabin', 'sans-serif';
+}
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/*breack point Movil 375*/
+
+@media only screen and (max-width: 767px) {
+    .nav_container{
+        padding: 25px 100px;
+        width: 100%;
+        background-image: url("https://github.com/Benjamin98100/imgHtml/blob/main/bg-370.png?raw=true");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nav_container{
+        width: 100%;
+        display: block;
+    }
+    .nav{
+        width: 100%;
+        display: block;
+       
+    }
+    .nav-menu-container , .nav_buttons{
+        display: none;
+    }
+    .nav_ico{
+        width: 100%;
+    }
+    .nav_ico-container{
+        padding: 20px;
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        box-shadow: 2px 2px 8px #333;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .img-icon{
+        width:155px;
+    }
+    .hambur{
+        display: block;
+    }
+    .icon-menu{
+        width: auto;
+        padding: 8px 13px;
+        font-weight: 900;
+        font-size: 30px;
+        color: #333;
+        display: block;
+        border-radius: 10px;
+        box-shadow: 3px 3px 7px #333;
+    }
+    .nav_container{
+        padding: 20px 20px;
+        width: 100%;
+        background-image: url("https://github.com/Benjamin98100/imgHtml/blob/main/bg-370.png?raw=true");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }    
+    .main-baner-container{
+        display: block;
+        justify-content: space-around;
+        padding:100px 0px;
+    }
+    .main-baner-container .item-banner{
+        width: 100%;
+        text-align: center;
+        display: block;
+        align-items: center;
+    }
+    .conten-txt{
+        margin: 10px auto;
+        max-width: 450px;
+        text-overflow: ellipsis;
+    }
+    .title-banner{
+        font-size: 30px;
+    }
+    .parrafo-banner{
+        color: #555;
+        font-size: 16px;
+        margin: 35px 0px 0px 0px;
+    }
+    .btbs-banner{
+        margin: 20px 0px;
+    }
+    .img-banner{
+        width: 100%;
+        padding:70px 0px 0px 0px;
+    }
+    .img-banner img{
+        max-width: 100%;
+    }
+
+}
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/*breack point Movil 376 a 1024*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav_container{
+        padding: 20px 20px;
+        width: 100%;
+        background-image: url("https://github.com/Benjamin98100/imgHtml/blob/main/bg-nav.png?raw=true");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nav_container{
+        width: 100%;
+        display: block;
+       
+    }
+    .nav{
+        width: 100%;
+        display: block;
+       
+    }
+    .nav-menu-container , .nav_buttons{
+        display: none;
+    }
+    .nav_ico{
+        width: 100%;
+    }
+    .nav_ico-container{
+        padding: 20px;
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        box-shadow: 2px 2px 8px #333;
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.1);
+        left: 0;
+    }
+    .img-icon{
+        width:155px;
+    }
+    .hambur{
+        display: block;
+    }
+    .icon-menu{
+        width: auto;
+        padding: 8px 13px;
+        font-weight: 900;
+        font-size: 30px;
+        color: #333;
+        display: block;
+        border-radius: 10px;
+        box-shadow: 3px 3px 7px #333;
+    }
+    .nav_container{
+        padding: 20px 20px;
+        width: 100%;
+        background-image: url("https://github.com/Benjamin98100/imgHtml/blob/main/bg-370.png?raw=true");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }    
+    .main-baner-container{
+        display: block;
+        justify-content: space-around;
+        padding:100px 0px;
+    }
+    .main-baner-container .item-banner{
+        width: 100%;
+        text-align: center;
+        display: block;
+        align-items: center;
+    }
+    .conten-txt {
+        margin: 10px auto;
+        max-width: 500px;
+    }
+    .title-banner{
+        font-size: 30px;
+    }
+    .parrafo-banner{
+        color: #555;
+        font-size: 16px;
+        margin: 35px 0px 0px 0px;
+    }
+    .btbs-banner{
+        margin: 20px 0px;
+    }
+    .bp-768{
+        display: block;
+        max-width: 500px;
+        margin: 0px auto;
+    }
+    .img-banner img{
+        width: 100%;
+    }
+    
+}
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
+/*breack point Movil 1025 a 1024*/
+@media (min-width: 992px){
+    .nav_container{
+        background-image: url("https://github.com/Benjamin98100/imgHtml/blob/main/bg-nav.png?raw=true");
+    }
+    
+    .img-icon{
+        max-width:150px;
+    }
+    .nav{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        align-content:center;
+        justify-content:space-evenly;
+    }
+    .nav-menu-container{
+        min-width: 557.28px;
+    }
+    .nav-menu-container ul{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-menu-container ul li a{
+        margin: 0px 10px;
+    }
+    
+    .nav_buttons{
+        text-align: center;
+        min-width: 260px;
+    }
+    
+    .bp-768 img{
+        max-width: 100%;
+    }
+    .conten-txt{
+        max-width: 500px;
+    }
+}
